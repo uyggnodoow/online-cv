@@ -67,11 +67,11 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Cyber Security
-        university: Korea University
+      - degree: MSc in Information Security
+        university: School of Cybersecurity, Korea University
         time: 2020 - Present
 
-      - degree: BSc in Cyber Security
+      - degree: BSc in Information Security
         university: Daegu Catholic University
         time: 2011 - 2018
 
@@ -125,25 +125,25 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: Build a Threat Intelligence Platform using Open Source, and Share Use Case
+      - title: Build a Threat Intelligence Platform using Open Source, and share use case.
         link: 'https://www.youtube.com/watch?v=saR__lL-URs'
         authors: WOOWACON, 2023
         conference:
 
       - title: 1st Place, Cyber Security AI·BigData Challenge (Track B. Threat Hunting) in 2021
-        link: "#"
+        link:
         authors: MSIT(Ministry of Science and ICT) / KISA
-        conference: Addison-Wesley, 1968
+        conference:
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Advanced to the tournament and Awarded Media Response, CCE(Cyber Conflict Exercise) in 2019
+        link:
+        authors: NIS(National Intelligence Service) / NSR(National Security Research Institute)
+        conference:
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: 2nd Place, Hacking Defense Competition of The Army in 2018
+        link:
+        authors: Republic of Korea Army Headquarters
+        conference:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
