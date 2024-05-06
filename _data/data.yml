@@ -5,7 +5,7 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Donggyu Woo
@@ -13,7 +13,7 @@ sidebar:
     avatar: rocket.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email:
     phone:
     timezone: Asia/Seoul
     citizenship:
@@ -63,37 +63,24 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+
 education:
     title: Education
     info:
       - degree: MSc in Cyber Security
         university: Korea University
         time: 2020 - Present
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
       - degree: BSc in Cyber Security
         university: Daegu Catholic University
         time: 2011 - 2018
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Security Engineer
+        time: 03.2022 - Present
+        company: Woowa Brothers (Jam-sil, Seoul)
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -106,9 +93,10 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+      - role: Security Engineer
+        time: 07.2020 - 03.2022
+        company: KakaoPay (Pangyo, Gyeonggi-do)
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -117,9 +105,10 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+
+      - role: Security Researcher
+        time: 04.2018 - 05.2020
+        company: WINS (Pangyo, Gyeonggi-do)
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -138,8 +127,8 @@ publications:
     papers:
       - title: Build a Threat Intelligence Platform using Open Source, and Share Use Case
         link: 'https://www.youtube.com/watch?v=saR__lL-URs'
-        authors: Donggyu Woo
-        conference: WOOWACON (2023)
+        authors: WOOWACON, 2023
+        conference:
 
       - title: 1st Place, Cyber Security AI·BigData Challenge (Track B. Threat Hunting) in 2021
         link: "#"
